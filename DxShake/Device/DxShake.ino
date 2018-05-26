@@ -90,7 +90,7 @@ bool detectShake()
 
 static void sendMessage()
 {
-  const char *messagePayload = "{\"Command\":\"Start\"}";
+  const char *messagePayload = "{\"Command\": \"pulse\",\"DeviceId\": \"DevKitXmi\"}";
   EVENT_INSTANCE *message = DevKitMQTTClient_Event_Generate(messagePayload, MESSAGE);
   DevKitMQTTClient_Event_AddProp(message, "messageType", "command");
 
