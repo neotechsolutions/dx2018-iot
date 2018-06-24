@@ -9,4 +9,4 @@ The code is organized in the following folders:
 - [`NsTrafficLightUwpClient`](NsTrafficLightUwpClient): the C# UWP app running on Windows IoT Core on the Raspberry Pi we used to demo the device twins and direct methods
 
 ## Slides
-A link to the slide will be provided very soon.
+The slides are available [here](http://neotech-solutions.fr/media/1729/digital-experience-2018-iot.pdf) !
